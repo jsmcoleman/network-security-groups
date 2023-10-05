@@ -49,6 +49,20 @@ After connecting to the Windows 10 virtual machine I installed Wireshark. Within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-
+Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the linux SSH connection and observe SSH traffic spam in WireShark
 </p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Going back to wireshark, I filtered for DHCP traffic only. From the Windows 10 virtual machine I attempted to issue my virtual machine a new IP address from the command line and observed the DHCP traffic in Wireshark.
+</p
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the linux SSH connection and observe SSH traffic spam in WireShark
+</p>
