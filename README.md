@@ -64,5 +64,12 @@ Going back to wireshark, I filtered for DHCP traffic only. From the Windows 10 v
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the linux SSH connection and observe SSH traffic spam in WireShark
+Going back to wireshark, I filtered for DNS traffic only. From the Windows 10 virtual machine on a command line used nslookup to see what the IP address of google.com and disney.com were, then observed the DNS traffic shown in wireshark.
+</p>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Going back to wireshark, I filtered for RDP traffic only. The result was non-stop spamming of traffic due to the RDP showing a live stream from one computer to another.
 </p>
