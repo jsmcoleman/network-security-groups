@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="https://i.imgur.com/IuZ4L0m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-I created a resource group and two virtual machines. One on windows 10 and the other on Linux (ubuntu). I connected to windows 10 with the public IP address and Ubuntu with the private IP address.
+I created a resource group and two virtual machines. One virtual machines was created with windows 10 and the other with Linux (Ubuntu). I connected to the Windows 10 VM with the public IP address and the Ubuntu VM with the private IP address.
 </p>
 <br />
 
@@ -49,7 +49,7 @@ After connecting to the Windows 10 virtual machine I installed Wireshark. Within
 <img src="https://i.imgur.com/H0CeC4W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the linux SSH connection and observe SSH traffic spam in WireShark
+Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the Linux SSH connection and observe SSH traffic spam in WireShark
 </p>
 
 <p>
