@@ -68,7 +68,6 @@ Going back to wireshark, I filtered for DNS traffic only. From the Windows 10 vi
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Going back to wireshark, I filtered for RDP traffic only. The result was non-stop spamming of traffic due to the RDP showing a live stream from one computer to another.
