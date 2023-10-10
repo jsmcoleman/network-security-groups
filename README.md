@@ -38,7 +38,7 @@ I created a resource group and two virtual machines. One on windows 10 and the o
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QHYHjxT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After connecting to the Windows 10 virtual machine I installed Wireshark. Within wireshark I tested the ICMP traffic and observed. On the Windows 10 virtal machine I attempted to ping the private IP address of the Ubuntu virtual machine. Then, I opened Powershell and attempted to ping a public website. Lastly, I initiated a perpetual ping from my windows 10 virtual machine to my Ubuntu Virtual machine and observed in Windows 10.
@@ -46,14 +46,14 @@ After connecting to the Windows 10 virtual machine I installed Wireshark. Within
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/H0CeC4W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Going back to wireshark, I filtered for SSH traffic only. From the Windows 10 virtual machine I typed commands into the linux SSH connection and observe SSH traffic spam in WireShark
 </p>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/H0CeC4W.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Going back to wireshark, I filtered for DHCP traffic only. From the Windows 10 virtual machine I attempted to issue my virtual machine a new IP address from the command line and observed the DHCP traffic in Wireshark.
@@ -61,7 +61,7 @@ Going back to wireshark, I filtered for DHCP traffic only. From the Windows 10 v
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Zae6MIu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Going back to wireshark, I filtered for DNS traffic only. From the Windows 10 virtual machine on a command line used nslookup to see what the IP address of google.com and disney.com were, then observed the DNS traffic shown in wireshark.
